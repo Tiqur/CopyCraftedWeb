@@ -1,0 +1,9 @@
+@use 'variables';
+
+.hero-section {
+  background: blue;
+  height: 40rem;
+  width: 100vw;
+  background: linear-gradient(120.46deg, #000699 11.97%, #160544 70.13%);
+  margin-top: - variables.$navbar-height;
+}

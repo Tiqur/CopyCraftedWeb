@@ -1,6 +1,8 @@
+/* Imports */
 @use 'hamburger_menu';
 @use 'navbar';
 @use 'nav_drawer';
+@use 'hero';
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -32,9 +34,8 @@ li {
 
 .logo {
   font-family: 'Montserrat', sans-serif;
-  border-top: 2px solid black;
-  font-family: Mon;
-  color: black;
+  color: inherit;
+  border-top: 1.6px solid white;
 }
 
 header {

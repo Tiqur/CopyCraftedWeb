@@ -2,7 +2,7 @@
 
 /* Navbar */
 nav {
-  height: 4rem;
+  height: variables.$navbar-height;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,6 +10,7 @@ nav {
   max-width: 1200px;
   margin-inline: auto;
   position: relative;
+  color: white;
 
   & a {
     text-decoration: none;
@@ -26,7 +27,7 @@ nav {
       display: inline-block;
       // Color anchor text
       & a {
-        color: black;
+        color: inherit;
       }
     }
 
