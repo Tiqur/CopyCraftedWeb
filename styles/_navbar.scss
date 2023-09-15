@@ -1,0 +1,24 @@
+@use 'variables';
+
+/* Navbar */
+nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lightgray;
+
+  & a {
+    text-decoration: none;
+  }
+
+  & li {
+    display: none;
+  }
+
+  @media screen and (min-width: variables.$mobile) {
+    & li {
+      display: inline-block;
+    }
+  }
+}

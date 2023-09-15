@@ -1,0 +1,32 @@
+/* Hamburger Menu */
+.menu-slice {
+  background: black;
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  transform: translateY(300%);
+
+  &:first-child {
+    margin-top: 8px;
+  }
+
+  &:last-child {
+    margin-top: -8px;
+  }
+}
+
+#hamburger-menu-checkbox {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+
+  &:checked ~ label .menu-slice {
+    background: green;
+  }
+}
+
+#hamburger-label {
+  width: 30px;
+  height: calc(4px * 3 + 8px * 2);
+}

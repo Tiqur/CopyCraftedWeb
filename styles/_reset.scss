@@ -1,0 +1,11 @@
+/* Boilerplate / Reset */
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: initial;
+  margin: 0;
+  padding: 0;
+}
