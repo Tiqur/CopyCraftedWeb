@@ -6,4 +6,10 @@
   width: 100vw;
   background: linear-gradient(120.46deg, variables.$light-blue 11.97%, variables.$dark-blue 70.13%);
   margin-top: - variables.$navbar-height;
+  position: relative;
+}
+
+.hero-wave {
+  position: absolute;
+  bottom: 0;
 }

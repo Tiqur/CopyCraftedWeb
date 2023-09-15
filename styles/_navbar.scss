@@ -11,6 +11,7 @@ nav {
   margin-inline: auto;
   position: relative;
   color: variables.$text-light;
+  z-index: 1;
 
   & a {
     text-decoration: none;
