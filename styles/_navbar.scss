@@ -20,5 +20,9 @@ nav {
     & li {
       display: inline-block;
     }
+
+    & label, & input {
+      display: none;
+    }
   }
 }
