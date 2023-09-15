@@ -2,7 +2,18 @@
 @use 'hamburger_menu';
 @use 'navbar';
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
 /* Global */
 li {
   list-style-type: none;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  border-top: 2px solid black;
+  font-family: Mon;
+  color: black;
 }
