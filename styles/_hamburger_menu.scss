@@ -28,7 +28,7 @@
 
   // On hamburger toggle
   &:checked ~ #nav-drawer {
-    transform: translateX(0%);
+    transform: translateX(-10%);
   }
 
   // On focus, add outline 

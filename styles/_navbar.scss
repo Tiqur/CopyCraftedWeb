@@ -6,19 +6,28 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: lightgray;
+  width: 80%;
+  max-width: 1200px;
+  margin-inline: auto;
+  position: relative;
 
   & a {
     text-decoration: none;
   }
 
-  & #nav-links {
+  // Hide nav links by default on mobile
+  & #nav-links li {
     display: none;
   }
 
   @media screen and (min-width: variables.$mobile) {
-    & #nav-links {
+    // Show the nav links
+    & #nav-links li {
       display: inline-block;
+      // Color anchor text
+      & a {
+        color: black;
+      }
     }
 
     & label, & input {

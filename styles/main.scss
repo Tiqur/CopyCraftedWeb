@@ -1,10 +1,28 @@
-@use 'reset';
 @use 'hamburger_menu';
 @use 'navbar';
 @use 'nav_drawer';
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+
+
+/* Boilerplate / Reset */
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: initial;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 
 /* Global */
@@ -17,4 +35,9 @@ li {
   border-top: 2px solid black;
   font-family: Mon;
   color: black;
+}
+
+header {
+  width: 100%;
+  height: 4rem;
 }
