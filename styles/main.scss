@@ -3,6 +3,7 @@
 @use 'navbar';
 @use 'nav_drawer';
 @use 'hero';
+@use 'variables';
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -35,7 +36,7 @@ li {
 .logo {
   font-family: 'Montserrat', sans-serif;
   color: inherit;
-  border-top: 1.6px solid white;
+  border-top: 1.6px solid variables.$text-light;
 }
 
 header {
