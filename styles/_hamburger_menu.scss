@@ -6,6 +6,7 @@
   position: absolute;
   right: 0;
   transform: translateY(300%);
+  z-index: 1;
 
   &:first-child {
     margin-top: 8px;
@@ -20,10 +21,16 @@
   opacity: 0;
   position: absolute;
   right: 0;
+  z-index: 1;
 
   // On hamburger toggle
   &:checked ~ label .menu-slice {
     background: green;
+  }
+
+  // On hamburger toggle
+  &:checked ~ #nav-drawer {
+    transform: translateX(0%);
   }
 
   // On focus, add outline 

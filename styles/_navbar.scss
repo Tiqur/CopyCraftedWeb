@@ -12,12 +12,12 @@ nav {
     text-decoration: none;
   }
 
-  & li {
+  & #nav-links {
     display: none;
   }
 
   @media screen and (min-width: variables.$mobile) {
-    & li {
+    & #nav-links {
       display: inline-block;
     }
 
