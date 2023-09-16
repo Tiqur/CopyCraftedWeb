@@ -35,9 +35,9 @@
     display: block;
     @for $i from 1 through 3 {
       &:nth-of-type(#{$i}) {
-        opacity: math.div(100%, $i);
+        opacity: math.div(100%, 4 - $i);
         margin-left: -$i * 333px;
-        animation: linear slide math.div(variables.$wave-movement-speed, $i+1) infinite;
+        animation: linear slide math.div(variables.$wave-movement-speed, $i) infinite;
       }
     }
   }

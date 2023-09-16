@@ -122,19 +122,19 @@ nav #nav-links li {
     display: block;
   }
   .hero-wave:nth-of-type(1) {
-    opacity: 100%;
+    opacity: 33.3333333333%;
     margin-left: -333px;
-    animation: linear slide 22.5s infinite;
+    animation: linear slide 45s infinite;
   }
   .hero-wave:nth-of-type(2) {
     opacity: 50%;
     margin-left: -666px;
-    animation: linear slide 15s infinite;
+    animation: linear slide 22.5s infinite;
   }
   .hero-wave:nth-of-type(3) {
-    opacity: 33.3333333333%;
+    opacity: 100%;
     margin-left: -999px;
-    animation: linear slide 11.25s infinite;
+    animation: linear slide 15s infinite;
   }
 }
 
