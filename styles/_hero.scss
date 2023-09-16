@@ -11,40 +11,34 @@
   overflow-x: hidden;
 }
 
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    display: none;
+    transform: translateX(-1600px);
+  }
+}
+
 .hero-wave {
+  background-image: url('../assets/wave.svg');
+  background-repeat: repeat-x;
+  width: 6400px;
+  height: 198px;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  display: none;
 
-  @for $i from 1 through 6 {
-    &:nth-of-type(#{$i}) {
-      @if ($i <= 3) {
-        animation: linear slide-follow math.div(variables.$wave-movement-speed, $i % 3+1) infinite;
-        //filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
-      } @else {
-        animation: linear slide math.div(variables.$wave-movement-speed, $i % 3+1) infinite;
+  @media screen and (min-width: variables.$mobile) {
+    display: block;
+    @for $i from 1 through 3 {
+      &:nth-of-type(#{$i}) {
+        opacity: math.div(100%, $i);
+        margin-left: -$i * 333px;
+        animation: linear slide math.div(variables.$wave-movement-speed, $i+1) infinite;
       }
     }
-  }
-}
-
-
-@keyframes slide {
-  from {
-    transform: translateX(0%);
-  }
-
-  to {
-    transform: translateX(100%);
-  }
-}
-
-@keyframes slide-follow {
-  from {
-    transform: translateX(-100%);
-  }
-
-  to {
-    transform: translateX(0%);
   }
 }
