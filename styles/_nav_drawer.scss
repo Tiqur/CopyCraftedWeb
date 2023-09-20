@@ -1,11 +1,12 @@
 @use 'variables';
 
 #nav-drawer {
+  top: 0;
   width: 100vw;
-  height: 20rem;
+  height: 100vh;
   position: fixed;
   background: coral;
-  transition: transform 400ms ease-out;
+  transition: transform 400ms variables.$quick-bezier;
   transform: translateX(100vw);
 
   & li {
