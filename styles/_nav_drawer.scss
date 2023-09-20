@@ -3,13 +3,32 @@
 #nav-drawer {
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
   position: fixed;
-  background: coral;
+  background: variables.$light-blue;
   transition: transform 400ms variables.$quick-bezier;
   transform: translateX(100vw);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 20vh 0 20vh 0; 
 
-  & li {
+  & li a {
+    color: white;
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    font-weight: 900;
+    transition: all 400ms variables.$quick-bezier;
+  }
+
+  & li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  & li:last-of-type a {
+    outline: 1px solid white;
   }
 
   @media screen and (min-width: variables.$mobile) {
