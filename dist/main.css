@@ -1,7 +1,4 @@
 /* Imports */
-/* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap");
 /* Hamburger Menu */
 #hamburger-menu-checkbox {
   opacity: 0;
@@ -134,7 +131,7 @@ nav #nav-links li {
   }
 }
 .hero-wave {
-  background-image: url("../assets/wave.svg");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjE5OCI+CiAgPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0uMDA1IDEyMUMzMTEgMTIxIDQwOS44OTgtLjI1IDgxMSAwYzQwMCAwIDUwMCAxMjEgNzg5IDEyMXY3N0gwcy4wMDUtNDggLjAwNS03N3oiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDE2MDAgMCkiLz4KPC9zdmc+Cg==");
   background-repeat: repeat-x;
   width: 6400px;
   height: 198px;
