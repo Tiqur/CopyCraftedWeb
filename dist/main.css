@@ -173,16 +173,25 @@ nav #nav-links li {
 
 .hero-content {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: clamp(1rem, 8vw, 3rem);
 }
-.hero-content p {
+.hero-content > div {
+  max-width: 50%;
+}
+.hero-content > div img {
+  object-fit: contain;
+}
+.hero-content > div p {
   font-size: clamp(0.8rem, 6vw, 2rem);
 }
-.hero-content button {
+.hero-content > div button {
   background: #FF1C6D;
   color: #FFFFFF;
   padding: 1rem 2rem;
@@ -191,9 +200,16 @@ nav #nav-links li {
   border: none;
   transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
 }
-.hero-content button:hover {
+.hero-content > div button:hover {
   cursor: pointer;
   transform: scale(1.05);
+}
+@media screen and (min-width: 800px) {
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 
 /* Boilerplate / Reset */
