@@ -53,14 +53,17 @@
   transform: translate(-50%, -50%);
   color: variables.$text-light;
   font-size: clamp(1rem, 8vw, 3rem);
-  background: red;
 
+  // Hero image
+  & img {
+    object-fit: contain;
+    filter: drop-shadow(32px 32px 0 variables.$darker-blue);
+  }
+
+  // Text content + CTA button
   & > div {
     max-width: 100%;
 
-    & img {
-      object-fit: contain;
-    }
 
     & p {
       font-size: clamp(0.8rem, 6vw, 2rem);

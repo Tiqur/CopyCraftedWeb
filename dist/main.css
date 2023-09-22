@@ -181,13 +181,13 @@ nav #nav-links li {
   transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: clamp(1rem, 8vw, 3rem);
-  background: red;
+}
+.hero-content img {
+  object-fit: contain;
+  filter: drop-shadow(32px 32px 0 #0B0127);
 }
 .hero-content > div {
   max-width: 100%;
-}
-.hero-content > div img {
-  object-fit: contain;
 }
 .hero-content > div p {
   font-size: clamp(0.8rem, 6vw, 2rem);
