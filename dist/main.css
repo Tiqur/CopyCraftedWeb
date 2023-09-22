@@ -124,7 +124,7 @@ nav #nav-links li {
 
 .hero-section {
   background: blue;
-  height: 50rem;
+  height: 58rem;
   width: 100vw;
   background: linear-gradient(120.46deg, #1E38A2 11.97%, #021048 70.13%);
   margin-top: -4rem;
@@ -176,7 +176,7 @@ nav #nav-links li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 50%;
+  top: calc(50% - 4rem);
   left: 50%;
   transform: translate(-50%, -50%);
   color: #FFFFFF;

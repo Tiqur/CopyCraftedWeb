@@ -3,7 +3,7 @@
 
 .hero-section {
   background: blue;
-  height: 50rem;
+  height: 58rem;
   width: 100vw;
   background: linear-gradient(120.46deg, variables.$light-blue 11.97%, variables.$dark-blue 70.13%);
   margin-top: - variables.$navbar-height;
@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 50%;
+  top: calc(50% - 4rem);
   left: 50%;
   transform: translate(-50%, -50%);
   color: variables.$text-light;
