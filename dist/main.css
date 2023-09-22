@@ -244,7 +244,9 @@ li {
 
 .logo {
   font-family: "Montserrat", sans-serif;
+  font-weight: 900;
   color: inherit;
+  font-size: 1.6rem;
   border-top: 1.6px solid #FFFFFF;
 }
 
