@@ -185,6 +185,7 @@ nav #nav-links li {
 .hero-content img {
   object-fit: contain;
   filter: drop-shadow(32px 32px 0 #0B0127);
+  margin-top: 4rem;
 }
 .hero-content > div {
   max-width: 100%;
