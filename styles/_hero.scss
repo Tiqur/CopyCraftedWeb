@@ -44,21 +44,25 @@
 }
 
 .hero-content {
-  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: calc(50% - 4rem);
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: variables.$text-light;
   font-size: clamp(1rem, 8vw, 3rem);
+  margin-top: variables.$navbar-height + 4rem;
+  margin-inline: auto;
 
   // Hero image
   & img {
-    object-fit: contain;
+    display: block;
+    width: 100%;
+    height: auto;
     filter: drop-shadow(32px 32px 0 variables.$darker-blue);
     margin-top: 4rem;
+
+    @media screen and (min-width: variables.$mobile) {
+      max-width: 40%;
+    }
   }
 
   // Text content + CTA button
@@ -92,6 +96,5 @@
   @media screen and (min-width: variables.$mobile) {
     flex-direction: row; 
     justify-content: space-between;
-    flex-wrap: wrap;
   }
 }
