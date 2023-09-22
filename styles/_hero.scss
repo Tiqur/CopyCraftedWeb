@@ -53,9 +53,10 @@
   transform: translate(-50%, -50%);
   color: variables.$text-light;
   font-size: clamp(1rem, 8vw, 3rem);
+  background: red;
 
   & > div {
-    max-width: 50%;
+    max-width: 100%;
 
     & img {
       object-fit: contain;
@@ -78,6 +79,10 @@
         cursor: pointer;
         transform: scale(1.05);
       }
+    }
+
+    @media screen and (min-width: variables.$mobile) {
+      max-width: 50%;
     }
   }
 

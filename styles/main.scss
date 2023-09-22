@@ -55,11 +55,6 @@ header {
 
 .content {
   padding-inline: 2rem;
-  width: calc(100% - 4rem);
+  width: 80%;
   max-width: 1200px;
-
-  @media screen and (min-width: variables.$mobile) {
-    padding-inline: 10rem;
-    width: calc(100% - 20rem);
-  }
 }

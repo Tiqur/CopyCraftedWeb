@@ -181,9 +181,10 @@ nav #nav-links li {
   transform: translate(-50%, -50%);
   color: #FFFFFF;
   font-size: clamp(1rem, 8vw, 3rem);
+  background: red;
 }
 .hero-content > div {
-  max-width: 50%;
+  max-width: 100%;
 }
 .hero-content > div img {
   object-fit: contain;
@@ -203,6 +204,11 @@ nav #nav-links li {
 .hero-content > div button:hover {
   cursor: pointer;
   transform: scale(1.05);
+}
+@media screen and (min-width: 800px) {
+  .hero-content > div {
+    max-width: 50%;
+  }
 }
 @media screen and (min-width: 800px) {
   .hero-content {
@@ -257,14 +263,8 @@ header {
 
 .content {
   padding-inline: 2rem;
-  width: calc(100% - 4rem);
+  width: 80%;
   max-width: 1200px;
-}
-@media screen and (min-width: 800px) {
-  .content {
-    padding-inline: 10rem;
-    width: calc(100% - 20rem);
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
