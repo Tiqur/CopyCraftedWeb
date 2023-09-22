@@ -58,6 +58,7 @@ nav {
   position: relative;
   color: #FFFFFF;
   z-index: 1;
+  padding-top: 1rem;
 }
 nav a {
   text-decoration: none;
