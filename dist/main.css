@@ -53,7 +53,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-inline: auto;
   position: relative;
   color: #FFFFFF;
@@ -271,7 +271,7 @@ header {
 .content {
   padding-inline: 2rem;
   width: 80%;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 /*# sourceMappingURL=main.css.map */
