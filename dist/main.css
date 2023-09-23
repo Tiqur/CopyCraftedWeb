@@ -52,7 +52,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  width: 80vw;
   max-width: 1400px;
   margin-inline: auto;
   position: relative;
@@ -278,7 +278,7 @@ header {
   padding-inline: 2rem;
 }
 .content-background > div {
-  width: 80%;
+  width: 80vw;
   max-width: 1400px;
   margin-inline: auto;
 }
