@@ -3,12 +3,18 @@
 
 .hero-section {
   background: blue;
-  height: 58rem;
+  height: auto;
   width: 100vw;
   background: linear-gradient(120.46deg, variables.$light-blue 11.97%, variables.$dark-blue 70.13%);
   margin-top: - variables.$navbar-height;
   position: relative;
   overflow-x: hidden;
+  padding-bottom: 8rem;
+
+
+  @media screen and (min-width: variables.$mobile) {
+    padding-bottom: 20rem;
+  }
 }
 
 @keyframes slide {
@@ -76,7 +82,7 @@
 
     & button {
       background: variables.$red;
-      color: variables.$text-light;
+      color: variables.$text-dark;
       padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
       border-radius: variables.$border-radius;
       font-size: 50%;

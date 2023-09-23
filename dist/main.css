@@ -124,12 +124,18 @@ nav #nav-links li {
 
 .hero-section {
   background: blue;
-  height: 58rem;
+  height: auto;
   width: 100vw;
   background: linear-gradient(120.46deg, #1E38A2 11.97%, #021048 70.13%);
   margin-top: -4rem;
   position: relative;
   overflow-x: hidden;
+  padding-bottom: 8rem;
+}
+@media screen and (min-width: 800px) {
+  .hero-section {
+    padding-bottom: 20rem;
+  }
 }
 
 @keyframes slide {
@@ -200,7 +206,7 @@ nav #nav-links li {
 }
 .hero-content > div button {
   background: #ff346a;
-  color: #FFFFFF;
+  color: #211F25;
   padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
   border-radius: 32px;
   font-size: 50%;
