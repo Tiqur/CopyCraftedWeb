@@ -176,7 +176,7 @@ nav #nav-links li {
   flex-direction: column;
   align-items: center;
   color: #FFFFFF;
-  font-size: clamp(1rem, 8vw, 3rem);
+  font-size: clamp(1rem, 5vw, 3rem);
   margin-top: 8rem;
   margin-inline: auto;
 }
@@ -196,14 +196,14 @@ nav #nav-links li {
   max-width: 100%;
 }
 .hero-content > div p {
-  font-size: clamp(0.8rem, 6vw, 2rem);
+  font-size: clamp(0.8rem, 3.5vw, 2rem);
 }
 .hero-content > div button {
   background: #FF1C6D;
   color: #FFFFFF;
-  padding: 1rem 2rem;
+  padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
   border-radius: 32px;
-  font-size: 1rem;
+  font-size: 50%;
   border: none;
   transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
 }
