@@ -56,7 +56,6 @@
   color: variables.$text-light;
   font-size: clamp(1rem, 5vw, 3rem);
   margin-top: variables.$navbar-height + 4rem;
-  margin-inline: auto;
 
   // Hero image
   & img {

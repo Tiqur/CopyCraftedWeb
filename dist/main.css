@@ -184,7 +184,6 @@ nav #nav-links li {
   color: #FFFFFF;
   font-size: clamp(1rem, 5vw, 3rem);
   margin-top: 8rem;
-  margin-inline: auto;
 }
 .hero-content img {
   display: block;
@@ -275,10 +274,13 @@ header {
   padding: 0;
 }
 
-.content {
+.content-background {
   padding-inline: 2rem;
+}
+.content-background > div {
   width: 80%;
   max-width: 1400px;
+  margin-inline: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

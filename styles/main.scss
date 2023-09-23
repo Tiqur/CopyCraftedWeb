@@ -55,8 +55,14 @@ header {
   padding: 0;
 }
 
-.content {
+.content-background {
   padding-inline: 2rem;
-  width: 80%;
-  max-width: 1400px;
+  //width: 80%;
+  //max-width: 1400px;
+
+  & > div {
+    width: 80%;
+    max-width: 1400px;
+    margin-inline: auto;
+  }
 }
