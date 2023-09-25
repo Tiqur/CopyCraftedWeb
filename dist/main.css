@@ -184,6 +184,9 @@ nav #nav-links li {
   color: #FFFFFF;
   margin-top: 8rem;
 }
+.hero-content p {
+  font-size: calc(clamp(1rem, 5vw, 3rem) * 0.7);
+}
 .hero-content img {
   display: block;
   width: 100%;
@@ -223,6 +226,34 @@ nav #nav-links li {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+.about-us .img-container {
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+  text-align: center;
+}
+.about-us .img-container img {
+  border-radius: 50%;
+  background: lightgrey;
+}
+.about-us .img-container .profile-card:last-of-type {
+  margin-left: 4vw;
+}
+.about-us h3 {
+  font-size: 1.3rem;
+}
+.about-us p {
+  color: #3D3A41;
+}
+.about-us h2 {
+  margin-inline: auto;
+  margin-top: 2rem;
 }
 
 /* Boilerplate / Reset */
@@ -279,12 +310,11 @@ header {
   margin-inline: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.content {
+  margin-inline: auto;
+}
+
+h1 {
   font-size: clamp(1rem, 5vw, 3rem);
 }
 
@@ -298,7 +328,7 @@ h6 {
 }
 
 p {
-  font-size: clamp(0.8rem, 3.5vw, 2rem);
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

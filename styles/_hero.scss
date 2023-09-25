@@ -56,8 +56,12 @@
   color: variables.$text-light;
   margin-top: variables.$navbar-height + 4rem;
 
+  p {
+    font-size: calc(variables.$h1-fs * 0.7);
+  }
+
   // Hero image
-  & img {
+  img {
     display: block;
     width: 100%;
     height: auto;
@@ -73,11 +77,10 @@
   & > div {
     max-width: 100%;
 
-    & button {
+    button {
       background: variables.$red;
       color: variables.$text-dark;
-      padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
-      border-radius: variables.$border-radius;
+      padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem); border-radius: variables.$border-radius;
       font-size: 50%;
       border: none;
       transition: all 400ms variables.$quick-bezier;

@@ -1,0 +1,39 @@
+@use 'variables';
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+
+    img {
+      border-radius: 50%;
+      background: lightgrey;
+    }
+
+    .profile-card:last-of-type {
+      margin-left: 4vw;
+    }
+
+    text-align: center;
+    
+    p {
+    }
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  p {
+    color: variables.$deemphasized-text-dark;
+  }
+
+  h2 {
+    margin-inline: auto;
+    margin-top: 2rem;
+  }
+}

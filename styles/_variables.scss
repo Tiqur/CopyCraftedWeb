@@ -11,6 +11,7 @@ $darker-blue: #0B0127;
 // Text Colors
 $text-light: #FFFFFF;
 $text-dark: #211F25;
+$deemphasized-text-dark: #3D3A41;
 
 // Misc
 $wave-movement-speed: 45s;
@@ -20,5 +21,5 @@ $border-radius: 32px;
 $quick-bezier: cubic-bezier(0.77,0.2,0.05,1.0);
 
 // Font sizes
-$h-fs: clamp(1rem, 5vw, 3rem);
-$p-fs: clamp(0.8rem, 3.5vw, 2rem);
+$h1-fs: clamp(1rem, 5vw, 3rem);
+$p-fs: 1rem;
