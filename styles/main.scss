@@ -66,3 +66,26 @@ header {
     margin-inline: auto;
   }
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: variables.$h-fs;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-size: calc(variables.$h-fs * 0.8);
+}
+
+p {
+  font-size: variables.$p-fs;
+}
