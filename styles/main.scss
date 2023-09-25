@@ -82,8 +82,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
-  font-size: calc(variables.$h1-fs * 0.8);
+  font-size: variables.$h2-fs;
 }
 
 p {
