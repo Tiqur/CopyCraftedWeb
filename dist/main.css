@@ -258,6 +258,9 @@ nav #nav-links li {
   margin-inline: auto;
   margin-top: 2rem;
 }
+.about-us p {
+  margin-inline: auto;
+}
 
 /* Boilerplate / Reset */
 :root {
