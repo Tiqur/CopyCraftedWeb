@@ -237,6 +237,7 @@ nav #nav-links li {
   display: flex;
   justify-content: center;
   margin-inline: auto;
+  flex-wrap: wrap;
 }
 .about-us .img-container img {
   border-radius: 50%;
