@@ -3,6 +3,7 @@
 .about-us {
   display: flex;
   flex-direction: column;
+  text-align: center;
 
   .img-container {
     display: flex;
@@ -18,7 +19,6 @@
       margin-left: 4vw;
     }
 
-    text-align: center;
     
     p {
     }

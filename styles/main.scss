@@ -88,4 +88,6 @@ h6 {
 
 p {
   font-size: variables.$p-fs;
+  // Optimal size is 50-70 characters
+  max-width: 70ch;
 }

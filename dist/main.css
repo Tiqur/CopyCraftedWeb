@@ -231,12 +231,12 @@ nav #nav-links li {
 .about-us {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .about-us .img-container {
   display: flex;
   justify-content: center;
   margin-inline: auto;
-  text-align: center;
 }
 .about-us .img-container img {
   border-radius: 50%;
@@ -329,6 +329,7 @@ h6 {
 
 p {
   font-size: 1rem;
+  max-width: 70ch;
 }
 
 /*# sourceMappingURL=main.css.map */
