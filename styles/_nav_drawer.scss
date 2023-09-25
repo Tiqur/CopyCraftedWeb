@@ -14,7 +14,7 @@
   flex-direction: column;
   padding: 20vh 0 20vh 0; 
 
-  & li a {
+  li a {
     color: white;
     display: block;
     padding: 1rem 2rem;
@@ -23,7 +23,7 @@
     transition: all 400ms variables.$quick-bezier;
   }
 
-  & li a:hover {
+  li a:hover {
     background: rgba(255, 255, 255, 0.1);
   }
 

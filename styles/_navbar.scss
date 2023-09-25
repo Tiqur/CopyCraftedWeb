@@ -14,22 +14,22 @@ nav {
   z-index: 1;
   padding-top: 1rem;
 
-  & a {
+  a {
     text-decoration: none;
   }
 
   // Hide nav links by default on mobile
-  & #nav-links li {
+  #nav-links li {
     display: none;
   }
 
   @media screen and (min-width: variables.$mobile) {
     // Show the nav links
-    & #nav-links li {
+    #nav-links li {
       display: inline-block;
 
       // Color anchor text
-      & a {
+      a {
         color: inherit;
         display: block;
         padding: 0.5rem 1.5rem;
@@ -37,16 +37,16 @@ nav {
         transition: all 400ms variables.$quick-bezier;
       }
       
-      & a:hover {
+      a:hover {
         background: rgba(255, 255, 255, 0.1);
       }
     }
 
-    & #nav-links li:last-of-type a {
+    #nav-links li:last-of-type a {
       border: 1px solid white;
     }
 
-    & label, & input {
+    label, input {
       display: none;
     }
   }

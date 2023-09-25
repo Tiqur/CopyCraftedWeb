@@ -60,19 +60,6 @@
     font-size: calc(variables.$h1-fs * 0.7);
   }
 
-  // Hero image
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-    filter: drop-shadow(32px 32px 0 variables.$darker-blue);
-    margin-top: 4rem;
-
-    @media screen and (min-width: variables.$mobile) {
-      max-width: 40%;
-    }
-  }
-
   // Text content + CTA button
   & > div {
     max-width: 100%;
@@ -86,10 +73,27 @@
       transition: all 400ms variables.$quick-bezier;
       margin-top: clamp(0.6rem, 4vw, 2rem);
       font-size: calc(variables.$h1-fs * 0.4);
+      display: flex;
+      align-items: center;
+
+      img {
+        filter: invert(1);
+        margin-left: 0.2rem;
+        width: 0px !important;
+        opacity: 0;
+        transition: all 400ms variables.$quick-bezier;
+        height: calc(variables.$h1-fs * 0.3);
+      }
 
       &:hover {
         cursor: pointer;
         outline: 2px solid white;
+      }
+
+      &:hover img {
+        display: block;
+        opacity: 100%;
+        width: auto !important;
       }
     }
     @media screen and (min-width: variables.$mobile) {
@@ -100,5 +104,18 @@
   @media screen and (min-width: variables.$mobile) {
     flex-direction: row; 
     justify-content: space-between;
+  }
+}
+
+// Hero image
+#hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(32px 32px 0 variables.$darker-blue);
+  margin-top: 4rem;
+
+  @media screen and (min-width: variables.$mobile) {
+    max-width: 40%;
   }
 }
