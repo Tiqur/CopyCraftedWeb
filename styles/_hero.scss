@@ -78,8 +78,9 @@
     max-width: 100%;
 
     button {
-      background: variables.$red;
-      color: variables.$text-dark;
+      background: none;
+      outline: 2px solid variables.$red;
+      color: variables.$text-light;
       padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem); border-radius: variables.$border-radius;
       border: none;
       transition: all 400ms variables.$quick-bezier;

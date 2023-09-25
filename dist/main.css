@@ -203,8 +203,9 @@ nav #nav-links li {
   max-width: 100%;
 }
 .hero-content > div button {
-  background: #ff346a;
-  color: #211F25;
+  background: none;
+  outline: 2px solid #ff346a;
+  color: #FFFFFF;
   padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
   border-radius: 32px;
   border: none;
