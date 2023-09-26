@@ -8,9 +8,19 @@ header {
   position: fixed;
   z-index: 1;
   top: 0;
+  transition: all 400ms variables.$quick-bezier;
+  padding-top: 1rem;
+}
+
+.header-scrolled {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  padding: 0.2rem 0;
 }
 
 nav {
+  margin-top: auto;
+  margin-bottom: auto;
   height: variables.$navbar-height;
   display: flex;
   align-items: center;
@@ -22,7 +32,6 @@ nav {
   position: relative;
   color: variables.$text-light;
   z-index: 1;
-  padding-top: 1rem;
 
   a {
     text-decoration: none;

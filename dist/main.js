@@ -1,9 +1,13 @@
 "use strict";
-let count = 1;
-const interval = setInterval(() => {
-    console.log('Count:', count);
-    count++;
-    if (count === 5) {
-        clearInterval(interval);
+const header = document.querySelector('header');
+document.addEventListener('scroll', e => {
+    const scrolled = document.documentElement.scrollTop > 0;
+    if (header) {
+        if (scrolled) {
+            header.classList.add('header-scrolled');
+        }
+        else {
+            header.classList.remove('header-scrolled');
+        }
     }
-}, 1000);
+});
