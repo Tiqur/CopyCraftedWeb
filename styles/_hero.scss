@@ -70,7 +70,6 @@
       color: variables.$text-light;
       padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem); border-radius: variables.$border-radius;
       border: none;
-      transition: all 400ms variables.$quick-bezier;
       margin-top: clamp(0.6rem, 4vw, 2rem);
       font-size: calc(variables.$h1-fs * 0.4);
       display: flex;
@@ -81,11 +80,11 @@
         margin-left: 0.2rem;
         width: 0px !important;
         opacity: 0;
-        transition: all 400ms variables.$quick-bezier;
         height: calc(variables.$h1-fs * 0.3);
       }
 
       &:hover {
+        transition: all 400ms variables.$quick-bezier;
         cursor: pointer;
         outline: 2px solid white;
       }

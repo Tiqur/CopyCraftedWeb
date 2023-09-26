@@ -75,9 +75,9 @@ nav #nav-links li {
     display: block;
     padding: 0.5rem 1.5rem;
     border-radius: 32px;
-    transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   nav #nav-links li a:hover {
+    transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
     background: rgba(255, 255, 255, 0.1);
   }
   nav #nav-links li:last-of-type a {
@@ -94,13 +94,13 @@ nav #nav-links li {
   height: 60vh;
   position: fixed;
   background: #1E38A2;
-  transition: transform 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
   transform: translateX(100vw);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   padding: 20vh 0 20vh 0;
+  transition: transform 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 #nav-drawer li a {
   color: white;
@@ -108,9 +108,9 @@ nav #nav-links li {
   padding: 1rem 2rem;
   border-radius: 32px;
   font-weight: 900;
-  transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 #nav-drawer li a:hover {
+  transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
   background: rgba(255, 255, 255, 0.1);
 }
 #nav-drawer li:last-of-type a {
@@ -197,7 +197,6 @@ nav #nav-links li {
   padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
   border-radius: 32px;
   border: none;
-  transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
   margin-top: clamp(0.6rem, 4vw, 2rem);
   font-size: calc(clamp(1rem, 5vw, 3rem) * 0.4);
   display: flex;
@@ -208,10 +207,10 @@ nav #nav-links li {
   margin-left: 0.2rem;
   width: 0px !important;
   opacity: 0;
-  transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
   height: calc(clamp(1rem, 5vw, 3rem) * 0.3);
 }
 .hero-content > div button:hover {
+  transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
   cursor: pointer;
   outline: 2px solid white;
 }

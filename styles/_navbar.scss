@@ -34,10 +34,10 @@ nav {
         display: block;
         padding: 0.5rem 1.5rem;
         border-radius: 32px;
-        transition: all 400ms variables.$quick-bezier;
       }
       
       a:hover {
+        transition: all 400ms variables.$quick-bezier;
         background: rgba(255, 255, 255, 0.1);
       }
     }
