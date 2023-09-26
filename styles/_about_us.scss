@@ -8,17 +8,21 @@
 
   .img-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: min(75vw, 30rem);
     margin-inline: auto;
-    flex-wrap: wrap;
+
+    @media screen and (max-width: 450px) {
+      flex-direction: column;
+
+      & .profile-card:first-of-type {
+        margin-bottom: 2rem;
+      }
+    }
 
     img {
       border-radius: 50%;
       background: lightgrey;
-    }
-
-    .profile-card:last-of-type {
-      margin-left: 4vw;
     }
   }
 

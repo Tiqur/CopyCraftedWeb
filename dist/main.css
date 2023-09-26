@@ -252,16 +252,21 @@ nav #nav-links li {
 }
 .about-us .img-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: min(75vw, 30rem);
   margin-inline: auto;
-  flex-wrap: wrap;
+}
+@media screen and (max-width: 450px) {
+  .about-us .img-container {
+    flex-direction: column;
+  }
+  .about-us .img-container .profile-card:first-of-type {
+    margin-bottom: 2rem;
+  }
 }
 .about-us .img-container img {
   border-radius: 50%;
   background: lightgrey;
-}
-.about-us .img-container .profile-card:last-of-type {
-  margin-left: 4vw;
 }
 .about-us h3 {
   font-size: 1.3rem;
