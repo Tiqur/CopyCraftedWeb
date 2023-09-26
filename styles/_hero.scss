@@ -2,6 +2,7 @@
 @use 'sass:math';
 
 .hero-section {
+  padding-top: variables.$navbar-height;
   background: blue;
   height: auto;
   width: 100vw;

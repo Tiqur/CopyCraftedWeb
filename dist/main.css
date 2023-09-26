@@ -47,12 +47,21 @@
 }
 
 /* Navbar */
+header {
+  width: 100vw;
+  height: 20rem;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
 nav {
   height: 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 80vw;
+  margin-inline: auto;
   max-width: 1400px;
   margin-inline: auto;
   position: relative;
@@ -123,6 +132,7 @@ nav #nav-links li {
 }
 
 .hero-section {
+  padding-top: 4rem;
   background: blue;
   height: auto;
   width: 100vw;
