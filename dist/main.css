@@ -395,4 +395,8 @@ p {
   max-width: 70ch;
 }
 
+section {
+  padding: 6rem;
+}
+
 /*# sourceMappingURL=main.css.map */
