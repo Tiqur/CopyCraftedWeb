@@ -141,13 +141,13 @@ nav #nav-links li {
 }
 
 .hero-section {
-  padding-top: 4rem;
   height: auto;
+  width: 100vw;
   background: linear-gradient(120.46deg, #1E38A2 11.97%, #021048 70.13%);
   margin-top: -4rem;
   position: relative;
   overflow-x: hidden;
-  padding-bottom: 8rem;
+  padding: 4rem 0 8rem 0;
 }
 @media screen and (min-width: 800px) {
   .hero-section {

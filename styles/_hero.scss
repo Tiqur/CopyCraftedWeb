@@ -2,13 +2,13 @@
 @use 'sass:math';
 
 .hero-section {
-  padding-top: variables.$navbar-height;
   height: auto;
+  width: 100vw;
   background: linear-gradient(120.46deg, variables.$light-blue 11.97%, variables.$dark-blue 70.13%);
   margin-top: - variables.$navbar-height;
   position: relative;
   overflow-x: hidden;
-  padding-bottom: 8rem;
+  padding: variables.$navbar-height 0 8rem 0;
 
 
   @media screen and (min-width: variables.$mobile) {
