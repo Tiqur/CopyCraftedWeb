@@ -202,7 +202,7 @@ nav #nav-links li {
   margin-top: 8rem;
 }
 .hero-content p {
-  font-size: calc(clamp(1rem, 5vw, 3rem) * 0.7);
+  font-size: calc(clamp(1.2rem, 5vw, 3rem) * 0.7);
 }
 .hero-content > div {
   max-width: 100%;
@@ -215,7 +215,7 @@ nav #nav-links li {
   border-radius: 32px;
   border: none;
   margin-top: clamp(0.6rem, 4vw, 2rem);
-  font-size: calc(clamp(1rem, 5vw, 3rem) * 0.4);
+  font-size: calc(clamp(1.2rem, 5vw, 3rem) * 0.4);
   display: flex;
   align-items: center;
 }
@@ -224,7 +224,7 @@ nav #nav-links li {
   margin-left: 0.2rem;
   width: 0px !important;
   opacity: 0;
-  height: calc(clamp(1rem, 5vw, 3rem) * 0.3);
+  height: calc(clamp(1.2rem, 5vw, 3rem) * 0.3);
 }
 .hero-content > div button:hover {
   transition: all 400ms cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -252,7 +252,7 @@ nav #nav-links li {
   display: block;
   width: 100%;
   height: auto;
-  filter: drop-shadow(32px 32px 0 #0B0127);
+  filter: drop-shadow(min(4vw, 2rem) min(4vw, 2rem) 0 #0B0127);
   margin-bottom: 4rem;
 }
 @media screen and (min-width: 800px) {
@@ -383,7 +383,7 @@ header {
 }
 
 h1 {
-  font-size: clamp(1rem, 5vw, 3rem);
+  font-size: clamp(1.2rem, 5vw, 3rem);
 }
 
 h2,
@@ -395,7 +395,7 @@ h6 {
 }
 
 p {
-  font-size: clamp(0.8rem, 4vw, 1.2rem);
+  font-size: clamp(1rem, 4vw, 1.2rem);
   max-width: 70ch;
 }
 
@@ -411,7 +411,7 @@ button {
   border-radius: 32px;
   border: none;
   margin-top: clamp(0.6rem, 4vw, 2rem);
-  font-size: calc(clamp(1rem, 5vw, 3rem) * 0.4);
+  font-size: calc(clamp(1.2rem, 5vw, 3rem) * 0.4);
   display: flex;
   align-items: center;
 }

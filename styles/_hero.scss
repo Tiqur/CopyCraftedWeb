@@ -110,7 +110,7 @@
   display: block;
   width: 100%;
   height: auto;
-  filter: drop-shadow(32px 32px 0 variables.$darker-blue);
+  filter: drop-shadow(min(4vw, 2rem) min(4vw, 2rem) 0 variables.$darker-blue);
   margin-bottom: 4rem;
 
   @media screen and (min-width: variables.$mobile) {
