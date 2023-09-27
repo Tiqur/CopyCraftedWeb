@@ -6,8 +6,8 @@
   align-items: center;
   text-align: center;
 
-  div {
-
+  button {
+    margin-inline: auto;
   }
 
   img {
@@ -19,5 +19,9 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     text-align: left;
+
+    button {
+      margin-inline: 0;
+    }
   }
 }

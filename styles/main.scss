@@ -95,3 +95,22 @@ p {
 section {
   padding: 6rem;
 }
+
+button {
+  background: none;
+  outline: 2px solid variables.$red;
+  color: variables.$red;
+  padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem); border-radius: variables.$border-radius;
+  border: none;
+  margin-top: clamp(0.6rem, 4vw, 2rem);
+  font-size: calc(variables.$h1-fs * 0.4);
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    transition: all 400ms variables.$quick-bezier;
+    cursor: pointer;
+    outline: 2px solid black;
+    color: black;
+  }
+}
