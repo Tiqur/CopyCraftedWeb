@@ -50,7 +50,7 @@
 
 .hero-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   color: variables.$text-light;
   margin-top: variables.$navbar-height + 4rem;
@@ -111,7 +111,7 @@
   width: 100%;
   height: auto;
   filter: drop-shadow(32px 32px 0 variables.$darker-blue);
-  margin-top: 4rem;
+  margin-bottom: 4rem;
 
   @media screen and (min-width: variables.$mobile) {
     max-width: 40%;
