@@ -5,14 +5,14 @@ footer {
   align-items: center;
 
   padding: 2rem 0;
-  background: variables.$dark-blue;
+  background: variables.$footer-background;
 
   li {
     display: inline-block;
   }
 
   a {
-    color: white;
+    color: variables.$footer-text;
     text-decoration: none;
   }
 }
@@ -55,35 +55,14 @@ footer {
 
 .footer-bottom {
   text-align: center;
-  color: variables.$text-light;
+  color: variables.$footer-text;
 
   hr {
-    color: variables.$text-light;
-    margin: 2rem 0;
+    color: variables.$footer-text;
+    margin: 2rem 0 1rem 0;
   }
 
   p {
     font-size: variables.$p-fs-small;
   }
 }
-
-  //.newsletter-cta {
-  //  color: variables.$text-light;
-
-  //  & > div {
-  //    display: flex;
-  //    align-items: center;
-  //  }
-
-  //  input {
-  //    border-radius: 16px;
-  //    border: none;
-  //    height: 2rem;
-  //    width: 25vw;
-  //  }
-
-  //  button {
-  //    margin-left: clamp(0.6rem, 4vw, 2rem);
-  //  }
-
-  //}

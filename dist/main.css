@@ -307,13 +307,13 @@ footer {
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  background: #021048;
+  background: #0a1535;
 }
 footer li {
   display: inline-block;
 }
 footer a {
-  color: white;
+  color: #a5acc0;
   text-decoration: none;
 }
 
@@ -348,11 +348,11 @@ footer a {
 
 .footer-bottom {
   text-align: center;
-  color: #FFFFFF;
+  color: #a5acc0;
 }
 .footer-bottom hr {
-  color: #FFFFFF;
-  margin: 2rem 0;
+  color: #a5acc0;
+  margin: 2rem 0 1rem 0;
 }
 .footer-bottom p {
   font-size: calc(clamp(1rem, 4vw, 1.2rem) * 0.6);
