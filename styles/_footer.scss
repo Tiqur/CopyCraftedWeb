@@ -35,13 +35,9 @@ footer {
   a {
     display: flex;
     align-items: Baseline;
-    margin-top: 1rem;
+    margin-top: 2rem;
     justify-content: space-between;
     width: 100%;
-
-    &:first-of-type {
-      margin-top: 2rem;
-    }
   }
 
   li {
@@ -49,6 +45,21 @@ footer {
 
     &:hover {
       cursor: pointer;
+    }
+  }
+
+
+  @media screen and (min-width: variables.$mobile) {
+    img {
+      display: none;
+    } 
+
+    li {
+      display: inline-block;
+
+      a {
+        margin-right: 1rem;
+      }
     }
   }
 }
@@ -65,5 +76,14 @@ footer {
   p {
     margin-inline: auto;
     font-size: variables.$p-fs-small;
+  }
+
+
+  @media screen and (min-width: variables.$mobile) {
+    text-align: left;
+
+    p {
+      margin-inline: 0;
+    }
   }
 }

@@ -332,18 +332,26 @@ footer a {
 .footer-nav a {
   display: flex;
   align-items: Baseline;
-  margin-top: 1rem;
+  margin-top: 2rem;
   justify-content: space-between;
   width: 100%;
-}
-.footer-nav a:first-of-type {
-  margin-top: 2rem;
 }
 .footer-nav li {
   display: block;
 }
 .footer-nav li:hover {
   cursor: pointer;
+}
+@media screen and (min-width: 800px) {
+  .footer-nav img {
+    display: none;
+  }
+  .footer-nav li {
+    display: inline-block;
+  }
+  .footer-nav li a {
+    margin-right: 1rem;
+  }
 }
 
 .footer-bottom {
@@ -357,6 +365,14 @@ footer a {
 .footer-bottom p {
   margin-inline: auto;
   font-size: calc(clamp(1rem, 4vw, 1.2rem) * 0.6);
+}
+@media screen and (min-width: 800px) {
+  .footer-bottom {
+    text-align: left;
+  }
+  .footer-bottom p {
+    margin-inline: 0;
+  }
 }
 
 /* Boilerplate / Reset */
