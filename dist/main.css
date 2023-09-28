@@ -303,28 +303,59 @@ nav #nav-links li {
   margin-inline: auto;
 }
 
-.referral-container {
+footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  padding: 2rem 0;
+  background: #021048;
+}
+footer li {
+  display: inline-block;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-top img {
+  margin-right: 0.8rem;
+}
+
+.footer-nav img {
+  filter: invert(1);
+}
+.footer-nav a {
+  display: flex;
+  align-items: Baseline;
+  margin-top: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-nav a:first-of-type {
+  margin-top: 2rem;
+}
+.footer-nav li {
+  display: block;
+}
+.footer-nav li:hover {
+  cursor: pointer;
+}
+
+.footer-bottom {
   text-align: center;
+  color: #FFFFFF;
 }
-.referral-container button {
-  margin-inline: auto;
+.footer-bottom hr {
+  color: #FFFFFF;
+  margin: 2rem 0;
 }
-.referral-container img {
-  width: 40vw;
-  margin-left: 8vw;
-}
-@media screen and (min-width: 800px) {
-  .referral-container {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    text-align: left;
-  }
-  .referral-container button {
-    margin-inline: 0;
-  }
+.footer-bottom p {
+  font-size: calc(clamp(1rem, 4vw, 1.2rem) * 0.6);
 }
 
 /* Boilerplate / Reset */
@@ -375,7 +406,7 @@ header {
 .content-background {
   padding-inline: 2rem;
 }
-.content-background div {
+.content-background > div {
   width: 80vw;
   max-width: 1200px;
   margin-inline: auto;
@@ -413,7 +444,6 @@ button {
   padding: clamp(0.4rem, 2vw, 1rem) clamp(0.8rem, 4vw, 2rem);
   border-radius: 32px;
   border: none;
-  margin-top: clamp(0.6rem, 4vw, 2rem);
   font-size: calc(clamp(1.2rem, 5vw, 3rem) * 0.4);
   display: flex;
   align-items: center;
