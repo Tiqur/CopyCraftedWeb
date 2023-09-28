@@ -355,6 +355,7 @@ footer a {
   margin: 2rem 0 1rem 0;
 }
 .footer-bottom p {
+  margin-inline: auto;
   font-size: calc(clamp(1rem, 4vw, 1.2rem) * 0.6);
 }
 
