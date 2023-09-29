@@ -1,0 +1,34 @@
+@use 'variables';
+
+.cta-section {
+  color: variables.$text-light;
+  text-align: center;
+
+  & > * {
+    margin-inline: auto;
+    margin-top: 1rem;
+  }
+
+  form {
+    display: inline-block;
+
+    input {
+      border: None;
+      border-radius: variables.$border-radius;
+      height: 2rem;
+      margin-right: 1rem;
+      width: clamp(12rem, 16vw, 20rem)
+    }
+
+    button {
+      display: inline-block;
+      color: inherit;
+      padding: 0 1rem;;
+      height: 2rem;
+    }
+  }
+
+  p:last-of-type {
+    font-size: variables.$p-fs-small;
+  }
+}
