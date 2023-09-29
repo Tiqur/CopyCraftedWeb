@@ -280,11 +280,15 @@ nav #nav-links li {
   max-width: min(75vw, 30rem);
   margin-inline: auto;
 }
+.about-us .img-container .profile-card:first-of-type {
+  margin-right: clamp(0.4rem, 6vw, 4rem);
+}
 @media screen and (max-width: 450px) {
   .about-us .img-container {
     flex-direction: column;
   }
   .about-us .img-container .profile-card:first-of-type {
+    margin-right: 0;
     margin-bottom: 2rem;
   }
 }
