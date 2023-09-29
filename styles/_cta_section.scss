@@ -17,7 +17,8 @@
       border-radius: variables.$border-radius;
       height: 2rem;
       margin-right: 1rem;
-      width: clamp(12rem, 16vw, 20rem)
+      width: clamp(12rem, 16vw, 20rem);
+      padding: 0 1.2rem;
     }
 
     button {
