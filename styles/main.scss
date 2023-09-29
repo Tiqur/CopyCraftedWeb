@@ -111,7 +111,7 @@ button {
   &:hover {
     transition: all 400ms variables.$quick-bezier;
     cursor: pointer;
-    outline: 2px solid black;
+    outline: 2px solid white;
     color: black;
   }
 }
