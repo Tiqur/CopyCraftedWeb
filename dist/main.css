@@ -336,6 +336,27 @@ nav #nav-links li {
   height: 2rem;
 }
 
+.pricing-section {
+  text-align: center;
+}
+.pricing-section * {
+  margin-inline: auto;
+}
+.pricing-section ul {
+  text-align: left;
+}
+.pricing-section .pricing-cards-container {
+  display: flex;
+}
+.pricing-section .pricing-cards-container .price-card {
+  border-radius: 32px;
+  padding: 2rem;
+  box-shadow: 0px 10px 20px 0px rgba(0, 40, 100, 0.25);
+}
+.pricing-section .pricing-cards-container button {
+  margin-top: auto;
+}
+
 footer {
   display: flex;
   align-items: center;

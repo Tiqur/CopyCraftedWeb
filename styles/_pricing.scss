@@ -1,4 +1,28 @@
 @use 'variables';
 
 .pricing-section {
+  text-align: center;
+
+  * {
+    margin-inline: auto;
+  }
+
+  ul {
+    text-align: left;
+  }
+
+  .pricing-cards-container {
+    display: flex;
+
+    .price-card {
+      border-radius: variables.$border-radius;
+      padding: 2rem;
+      box-shadow: 0px 10px 20px 0px rgba(0, 40, 100, 0.25);
+    }
+
+    button {
+      margin-top: auto;
+    }
+  }
+
 }
