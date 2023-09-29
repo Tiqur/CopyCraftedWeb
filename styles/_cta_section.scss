@@ -4,7 +4,7 @@
   color: variables.$text-light;
   text-align: center;
 
-  & > * {
+  & > *:not(:first-child) {
     margin-inline: auto;
     margin-top: 1rem;
   }

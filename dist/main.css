@@ -314,7 +314,7 @@ nav #nav-links li {
   color: #FFFFFF;
   text-align: center;
 }
-.cta-section > * {
+.cta-section > *:not(:first-child) {
   margin-inline: auto;
   margin-top: 1rem;
 }
