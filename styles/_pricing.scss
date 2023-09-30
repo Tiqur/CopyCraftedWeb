@@ -27,6 +27,16 @@
       display: flex;
       flex-direction: column;
 
+      .pricing-title {
+        font-size: calc(variables.$h2-fs * 0.8);
+        font-weight: 600;
+
+        & + p {
+          font-size: calc(variables.$h1-fs * 0.85);
+          font-weight: bolder;
+        }
+      }
+
       li {
         margin-top: 1rem;
 

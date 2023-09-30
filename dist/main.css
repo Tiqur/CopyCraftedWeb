@@ -362,6 +362,14 @@ nav #nav-links li {
   display: flex;
   flex-direction: column;
 }
+.pricing-section .pricing-cards-container .price-card .pricing-title {
+  font-size: calc(clamp(1.2rem, 6vw, 2rem) * 0.8);
+  font-weight: 600;
+}
+.pricing-section .pricing-cards-container .price-card .pricing-title + p {
+  font-size: calc(clamp(1.2rem, 6vw, 3rem) * 0.85);
+  font-weight: bolder;
+}
 .pricing-section .pricing-cards-container .price-card li {
   margin-top: 1rem;
 }
