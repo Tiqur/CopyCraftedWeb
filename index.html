@@ -35,23 +35,23 @@
 
       <!-- Nav Links -->
       <ul id='nav-links'>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About Us">About Us</a></li>
-        <li><a href="#Services">Services</a></li>
-        <li><a href="#Contact Us">Contact Us</a></li>
+        <li><a onclick="document.querySelector('#home').scrollIntoView({behavior: 'smooth'});" href="#Home">Home</a></li>
+        <li><a onclick="document.querySelector('#about-us').scrollIntoView({behavior: 'smooth', block: 'center'});" href="#About Us">About Us</a></li>
+        <li><a onclick="document.querySelector('#services').scrollIntoView({behavior: 'smooth', block: 'center'});" href="#Services">Services</a></li>
+        <li><a onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});" href="#Contact Us">Contact Us</a></li>
       </ul>
 
       <!-- Nav Drawer -->
       <ul id='nav-drawer'>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About Us">About Us</a></li>
-        <li><a href="#Services">Services</a></li>
-        <li><a href="#Contact Us">Contact Us</a></li>
+        <li><a onclick="document.querySelector('#home').scrollIntoView({behavior: 'smooth'});" href="#Home">Home</a></li>
+        <li><a onclick="document.querySelector('#about-us').scrollIntoView({behavior: 'smooth', block: 'center'});" href="#About Us">About Us</a></li>
+        <li><a onclick="document.querySelector('#services').scrollIntoView({behavior: 'smooth', block: 'center'});" href="#Services">Services</a></li>
+        <li><a onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});" href="#Contact Us">Contact Us</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section class='hero-section'>
+    <section class='hero-section' id="home">
       <div class='hero-wave'></div>
       <div class='hero-wave'></div>
       <div class='hero-wave'></div>
@@ -60,13 +60,13 @@
           <div>
             <h1>Professional, attractive, and personalized websites.</h1>
             <p>Let us do what we’re best at, and make your website glow.</p>
-            <button class='.button'>Get Started<img src="./assets/arrow.svg" alt="hero button arrow" height='8px' width='0px'></button>
+            <button onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});" class='.button'>Get Started<img src="./assets/arrow.svg" alt="hero button arrow" height='8px' width='0px'></button>
           </div>
           <img id='hero-image' src="./assets/hero-image.svg" alt="Hero Image">
         </div>
       </div>
     </section>
-    <section class='content-background'>
+    <section class='content-background' id="about-us">
       <div class='content about-us'>
         <div class='img-container'>
           <span class='profile-card'>
@@ -84,7 +84,7 @@
         <p>We develop highly converting websites that fit your brand image and voice. By harmoniously mixing web development and copywriting, we present a joint service with no compromises.</p>
       </div>
     </section>
-    <section class='content-background' style='background: #1E38A2'>
+    <section class='content-background' style='background: #1E38A2' id="contact-us">
       <div class='content cta-section'>
         <h2>Contact Us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
@@ -98,7 +98,7 @@
       </div>
     </section>
 
-    <section class='content-background'>
+    <section class='content-background' id="services">
       <div class='content pricing-section'>
         <h2>Choose the best plan for your business</h2>
         <p>Vulputate augue sed dui, eget bibendum quis fames varius id. Pellentesque orci molestie morbi.</p>
@@ -114,7 +114,7 @@
               <li>Intuitively Designed UI</li>
               <li>High-performance</li>
             </ul>
-            <button>Contact Us</button>
+            <button onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Us</button>
           </div>
 
           <div class='price-card'>
@@ -126,9 +126,8 @@
               <li>High-performance</li>
               <li>Highly attractive Copy</li>
             </ul>
-            <button class='button-favored'>Contact Us</button>
+            <button class='button-favored' onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Us</button>
           </div>
-
 
           <div class='price-card'>
             <p class='pricing-title'>Copywriting</p>
@@ -136,7 +135,7 @@
             <ul>
               <li>Highly Attactive Copy</li>
             </ul>
-            <button>Contact Us</button>
+            <button onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});">Contact Us</button>
           </div>
 
         </div>
@@ -174,22 +173,22 @@
           <!-- Footer Nav -->
           <ul>
             <li>
-              <a href="">
+              <a href="#Home" onclick="document.querySelector('#home').scrollIntoView({behavior: 'smooth'});">
                 Home
                 <img src="./assets/arrow.svg" alt="hero button arrow" height='8px' width='8px'></a>
             </li>
             <li>
-              <a href="">
+              <a href="#About-us" onclick="document.querySelector('#about-us').scrollIntoView({behavior: 'smooth', block: 'center'});">
                 About Us
                 <img src="./assets/arrow.svg" alt="hero button arrow" height='8px' width='8px'></a>
             </li>
             <li>
-              <a href="">
+              <a href="#Services" onclick="document.querySelector('#services').scrollIntoView({behavior: 'smooth', block: 'center'});">
                 Services
                 <img src="./assets/arrow.svg" alt="hero button arrow" height='8px' width='8px'></a>
             </li>
             <li>
-              <a href="">
+              <a href="#Contact-us" onclick="document.querySelector('#contact-us').scrollIntoView({behavior: 'smooth', block: 'center'});">
                 Contact
                 <img src="./assets/arrow.svg" alt="hero button arrow" height='8px' width='8px'></a>
             </li>
