@@ -15,7 +15,7 @@
     input {
       border: None;
       border-radius: variables.$border-radius;
-      height: 2rem;
+      height: 2.4rem;
       margin-right: 1rem;
       width: clamp(12rem, 16vw, 20rem);
       padding: 0 1.2rem;
@@ -25,7 +25,7 @@
       display: inline-block;
       color: inherit;
       padding: 0 1rem;;
-      height: 2rem;
+      height: 2.4rem;
     }
   }
 }
