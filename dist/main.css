@@ -355,6 +355,7 @@ nav #nav-links li {
 .pricing-section .pricing-cards-container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 .pricing-section .pricing-cards-container .price-card {
   border-radius: 32px;
