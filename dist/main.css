@@ -357,6 +357,11 @@ nav #nav-links li {
   flex-wrap: wrap;
   margin-top: 2rem;
 }
+@media screen and (max-width: 800px) {
+  .pricing-section .pricing-cards-container #pricing-favored {
+    order: -1;
+  }
+}
 .pricing-section .pricing-cards-container .price-card {
   border-radius: 32px;
   padding: 2rem;

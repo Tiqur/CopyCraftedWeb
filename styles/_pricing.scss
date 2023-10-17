@@ -20,6 +20,13 @@
     flex-wrap: wrap;
     margin-top: 2rem;
 
+    // Make first on mobile
+    @media screen and (max-width: variables.$mobile) {
+      #pricing-favored {
+        order: -1;
+      }
+    }
+
     .price-card {
       border-radius: variables.$border-radius;
       padding: 2rem;
